@@ -1,0 +1,101 @@
+/* for laptop */
+
+@media (min-width:991px) {
+
+    .ham {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .ul2 .all {
+        display: flex;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    .oness {
+        display: flex;
+    }
+
+    nav {
+        padding: 8px 60px;
+        background-color: rgb(57, 56, 56);
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .laptop1 {
+        display: none;
+    }
+
+    .laptop {
+        display: initial;
+        width: 660px;
+        height: 380px;
+    }
+
+    .front {
+        flex-direction: row;
+        padding: 0 65px;
+        margin: 0;
+    }
+
+    .left {
+        text-align: left;
+        padding: 40px 70px 0 0;
+    }
+
+    .front p {
+        margin: 16px 0;
+    }
+
+    .section2 {
+        flex-direction: row;
+        margin: 60px 0;
+    }
+
+    .section2 img {
+        width: 4.9vw;
+        height: auto;
+    }
+
+    .container {
+        flex-direction: row;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding: 20px 20px 0 20px;
+        width: auto;
+        margin: 35px 0 35px 0;
+    }
+
+    .container img {
+        width: 20vw;
+        height: auto;
+        flex-direction: row;
+    }
+
+    .container a {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .games {
+        height: 95vh;
+        margin: 0 10px;
+        text-align: left;
+        padding: 0;
+    }
+
+    .games a {
+        text-align: start;
+    }
+
+}

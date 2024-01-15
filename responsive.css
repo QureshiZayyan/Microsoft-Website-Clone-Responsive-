@@ -1,0 +1,364 @@
+main {
+    padding: 0;
+}
+
+.ham {
+    display: none;
+}
+
+.laptop1 {
+    display: none;
+}
+
+.logo {
+    display: none;
+}
+
+/* very small screens */
+@media (max-width:258px) {
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 13px 0 10px 0;
+    }
+
+    .ul1.open {
+        top: 110px;
+    }
+}
+
+/* for mobiles */
+@media (max-width:600px) {
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .oness {
+        display: none;
+    }
+
+    .left {
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    .ul1 .onee {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .laptop {
+        display: none;
+    }
+
+    .laptop1 {
+        display: flex;
+        width: 70vw;
+        height: auto;
+    }
+
+    nav {
+        padding: 7px 13px;
+        background-color: rgb(211, 206, 206);
+    }
+
+    ul {
+        display: none;
+    }
+
+    .front {
+        flex-direction: column-reverse;
+        margin: 20px auto;
+        padding: 0 20px;
+        background-color: white;
+    }
+
+    .bar {
+        width: 36px;
+        border: 1.7px solid black;
+        width: 31px;
+        margin: 2px 0;
+        cursor: pointer;
+        transition: 0.3s ease-out;
+    }
+
+    .ham {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .ul1.open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 54px;
+        background-color: rgb(143, 122, 122);
+        width: 45%;
+        left: 0;
+        animation: first 0.4s ease-out;
+    }
+
+    .ul2 {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 15px;
+    }
+
+    .ul2 .all {
+        display: none;
+    }
+
+    .laptop1 {
+        width: 60%;
+        height: auto;
+        margin: auto;
+    }
+
+    .logo {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section2 {
+        flex-direction: column;
+        margin: 10px 0 40px 0;
+        height: auto;
+        width: 100%;
+        padding: 5px 0;
+        background-color: rgb(213, 194, 194);
+    }
+
+    .section2 img {
+        width: 9.6vw;
+        height: auto;
+        margin: 12px 0;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 20px 0;
+        height: auto;
+        background-color: rgb(169, 158, 158);
+        width: auto;
+    }
+
+    .container img {
+        width: 45vw;
+        height: auto;
+    }
+
+    .games {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        margin: 10px 0;
+        padding: 0;
+        width: auto;
+    }
+
+    .games a {
+        margin: 10px 0;
+    }
+
+    input {
+        width: 96vw;
+        position: absolute;
+        padding: 6px 2px;
+        left: 5px;
+    }
+
+    .bt1 {
+        background-color: transparent;
+        border: none;
+    }
+}
+
+/* for tablets */
+@media (min-width:600px) {
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .oness {
+        display: none;
+    }
+
+    .left {
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    .ul1 .onee {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .laptop {
+        display: none;
+    }
+
+    .laptop1 {
+        display: flex;
+        width: 70vw;
+        height: auto;
+    }
+
+    nav {
+        padding: 7px 13px;
+        background-color: rgb(211, 206, 206);
+    }
+
+    ul {
+        display: none;
+    }
+
+    .front {
+        flex-direction: column-reverse;
+        margin: 20px auto;
+        padding: 0 20px;
+        background-color: white;
+    }
+
+    .bar {
+        width: 36px;
+        border: 1.7px solid black;
+        width: 31px;
+        margin: 2px 0;
+        cursor: pointer;
+        transition: 0.3s ease-out;
+    }
+
+    .ham {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .ul1.open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 54px;
+        background-color: rgb(143, 122, 122);
+        width: 45%;
+        left: 0;
+        animation: first 0.4s ease-out;
+    }
+
+    .ul2 {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 15px;
+    }
+
+    .ul2 .all {
+        display: none;
+    }
+
+    .laptop1 {
+        width: 40%;
+        height: auto;
+        margin: auto;
+    }
+
+    .logo {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section2 {
+        flex-direction: column;
+        margin: 10px 0 40px 0;
+        height: auto;
+        width: 100%;
+        padding: 5px 0;
+        background-color: rgb(213, 194, 194);
+    }
+
+    .section2 img {
+        width: 9.6vw;
+        height: auto;
+        margin: 12px 0;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 20px 0;
+        width: 100%;
+        height: auto;
+        background-color: rgb(169, 158, 158);
+    }
+
+    .container img {
+        width: 25vw;
+        height: auto;
+    }
+
+    .games {
+        margin: 10px auto;
+        height: auto;
+        width: 25vw;
+        text-align: center;
+        overflow: hidden;
+        padding: 0;
+    }
+
+    .games a {
+        margin: 15px 0;
+        text-align: left;
+    }
+
+    input {
+        width: 96vw;
+        position: absolute;
+        padding: 6px 2px;
+        left: 5px;
+    }
+
+    .bt1 {
+        background-color: transparent;
+        border: none;
+    }
+
+}
+
+/* animations */
+
+.ham.open .ones {
+    transform: rotate(48deg) translateX(2.9px)
+}
+
+.ham.open .two {
+    transform: rotate(-55deg) translate(5.3px, -0.2px);
+}
+
+.ham.open .three {
+    opacity: 0;
+}
+
+@keyframes first {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 45%;
+    }
+}

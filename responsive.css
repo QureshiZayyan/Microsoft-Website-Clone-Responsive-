@@ -63,8 +63,12 @@ main {
     }
 
     nav {
-        padding: 7px 13px;
-        background-color: rgb(211, 206, 206);
+        padding: 7px 15px;
+        background-color: rgb(246, 246, 246);
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
     }
 
     ul {
@@ -76,6 +80,7 @@ main {
         margin: 20px auto;
         padding: 0 20px;
         background-color: white;
+        margin: 50px 0;
     }
 
     .bar {
@@ -119,6 +124,7 @@ main {
         width: 60%;
         height: auto;
         margin: auto;
+
     }
 
     .logo {
@@ -173,20 +179,21 @@ main {
     }
 
     input {
-        width: 96vw;
-        position: absolute;
-        padding: 6px 2px;
-        left: 5px;
+        left: 15px;
+
     }
 
     .bt1 {
-        background-color: transparent;
-        border: none;
+        left: -19px;
     }
 }
 
 /* for tablets */
 @media (min-width:600px) {
+
+    * {
+        text-align: center;
+    }
 
     html {
         scroll-behavior: smooth;
@@ -198,7 +205,6 @@ main {
 
     .left {
         margin: 15px 0;
-        text-align: center;
     }
 
     .ul1 .onee {
@@ -220,6 +226,10 @@ main {
     nav {
         padding: 7px 13px;
         background-color: rgb(211, 206, 206);
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
     }
 
     ul {
@@ -304,38 +314,26 @@ main {
         width: 100%;
         height: auto;
         background-color: rgb(169, 158, 158);
+        overflow: hidden;
     }
 
     .container img {
-        width: 25vw;
-        height: auto;
+        /* width: 100vw; */
+        /* height: auto; */
     }
 
     .games {
         margin: 10px auto;
         height: auto;
-        width: 25vw;
-        text-align: center;
+        width: 55vw;
         overflow: hidden;
         padding: 0;
     }
 
     .games a {
         margin: 15px 0;
-        text-align: left;
     }
 
-    input {
-        width: 96vw;
-        position: absolute;
-        padding: 6px 2px;
-        left: 5px;
-    }
-
-    .bt1 {
-        background-color: transparent;
-        border: none;
-    }
 
 }
 

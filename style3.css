@@ -45,7 +45,6 @@
     .front {
         flex-direction: row;
         padding: 0 65px;
-        margin: 0;
     }
 
     .left {
@@ -96,6 +95,13 @@
 
     .games a {
         text-align: start;
+    }
+
+    .bt1 {
+        position: relative;
+        background-color: transparent;
+        border: none;
+        left:15px;
     }
 
 }

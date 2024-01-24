@@ -44,6 +44,9 @@ nav {
     justify-content: space-between;
     background-color: rgb(247, 243, 243);
     padding: 0 90px;
+    text-align: center;
+    background-color: gray;
+
 }
 
 .left p {
@@ -86,11 +89,8 @@ a {
     padding: 0 40px;
     flex-direction: row;
     height: auto;
+    background-color: grey;
 }
-
-/* .container img {
-    margin: 0 10px;
-} */
 
 .container a {
     margin: 20px 0;
@@ -99,9 +99,6 @@ a {
 
 .games {
     padding: 0 10px;
-    /* width: 100vw; */
-    width: auto;
-    height: 80vh;
 }
 
 .bold {

@@ -38,13 +38,18 @@
 
     .laptop {
         display: initial;
-        width: 660px;
+        width: 50vw;
         height: 380px;
+    }
+
+    h2 {
+        text-align: left;
     }
 
     .front {
         flex-direction: row;
         padding: 0 65px;
+        text-align: left;
     }
 
     .left {
@@ -68,8 +73,6 @@
 
     .container {
         flex-direction: row;
-        padding-left: 10px;
-        padding-right: 10px;
         padding: 20px 20px 0 20px;
         width: auto;
         margin: 35px 0 35px 0;
@@ -78,30 +81,28 @@
     .container img {
         width: 20vw;
         height: auto;
-        flex-direction: row;
-    }
-
-    .container a {
-        display: flex;
-        flex-direction: column;
     }
 
     .games {
-        height: 95vh;
-        margin: 0 10px;
-        text-align: left;
+        height: 85vh;
+        margin: 0 5px;
         padding: 0;
+        margin: 0 20px;
     }
 
     .games a {
-        text-align: start;
+        text-align: left;
+        display: flex;
+        align-items:flex-start;
+        flex-direction: column;
     }
 
     .bt1 {
         position: relative;
         background-color: transparent;
         border: none;
-        left:15px;
+        left: 15px;
     }
+
 
 }

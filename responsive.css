@@ -81,6 +81,8 @@ main {
         padding: 0 20px;
         background-color: white;
         margin: 50px 0;
+        justify-content: center;
+        text-align: center;
     }
 
     .bar {
@@ -124,7 +126,6 @@ main {
         width: 60%;
         height: auto;
         margin: auto;
-
     }
 
     .logo {
@@ -152,14 +153,13 @@ main {
     .container {
         flex-direction: column;
         padding: 20px 0;
-        height: auto;
         background-color: rgb(169, 158, 158);
-        width: auto;
     }
 
     .container img {
-        width: 45vw;
+        width: 55vw;
         height: auto;
+        margin: auto;
     }
 
     .games {
@@ -169,9 +169,10 @@ main {
         flex-direction: column;
         text-align: center;
         height: auto;
-        margin: 10px 0;
+        margin: 10px auto;
         padding: 0;
         width: auto;
+        margin: 30px 0;
     }
 
     .games a {
@@ -180,7 +181,6 @@ main {
 
     input {
         left: 15px;
-
     }
 
     .bt1 {
@@ -191,9 +191,6 @@ main {
 /* for tablets */
 @media (min-width:600px) {
 
-    * {
-        text-align: center;
-    }
 
     html {
         scroll-behavior: smooth;
@@ -314,26 +311,26 @@ main {
         width: 100%;
         height: auto;
         background-color: rgb(169, 158, 158);
-        overflow: hidden;
-    }
-
-    .container img {
-        /* width: 100vw; */
-        /* height: auto; */
+        margin: 35px 0 0 0;
+        text-align: center;
     }
 
     .games {
-        margin: 10px auto;
-        height: auto;
-        width: 55vw;
-        overflow: hidden;
+        margin: 25px auto;
         padding: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .games img {
+        width: 40vw;
+        margin: 12px auto;
     }
 
     .games a {
-        margin: 15px 0;
+        margin: 10px auto;
     }
-
 
 }
 
